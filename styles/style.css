@@ -81,11 +81,22 @@ header{
     
     border-radius: 41px;
     width: 140px;
+    box-shadow: inset 0 0 0 0 yellowgreen;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+.purchase-button:hover{
+    box-shadow: inset 300px 0 0 0 yellowgreen;
+}
+.top-img{
+    background-image: url(images/Circle-design.svg);
 }
 .top-img img{
     height: 475px;
     width: 475px;
+    
 }
+
 
 /* ----------Brand Section Styles Goes Here-------- */
 
@@ -177,6 +188,48 @@ header{
     color: #E02C6D;
     text-decoration: none;
 }
+/* ---------------News Letter Section--------- */
+.news-letter-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news-letter{
+    padding: 20px;
+    width: 1110px;
+    height: 270px;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.637);
+    display: flex;
+    border-radius: 5px;
+    
+}
+.news-img{
+    margin-left: 100px;
+}
+.news-img img{
+    height: 100%;
+}
+.news-description input{
+    height: 30px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.news-description button{
+
+    margin-left: 10px;
+    height: 38px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
 
 /* ----------Footer Styles Goes Here--------- */
 footer{
