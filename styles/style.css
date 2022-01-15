@@ -2,6 +2,7 @@
 /* --------------universal styles here------------ */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* ----------------Header Styles Goes here------------ */
@@ -166,4 +167,53 @@ header{
     font-size: 12px;
     margin-left: 5px;
     color: #18191F;
+}
+#more-btn{
+    width: 1200px;
+    display: flex;
+    justify-content: right;
+}
+#more-btn h3,a{
+    color: #E02C6D;
+    text-decoration: none;
+}
+
+/* ----------Footer Styles Goes Here--------- */
+footer{
+    margin: 0;
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+    color: white;
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot-container h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.foot-container h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.social-icons{
+    display: flex;
+    margin-top: 10px;
+}
+.social-icon{
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 3px;
+    border-radius: 100px;
+}
+.social-icon a{
+    color: white;
 }
